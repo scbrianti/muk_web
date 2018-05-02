@@ -36,8 +36,8 @@ var WordHandler = PreviewHandler.PDFHandler.extend({
 			'application/vnd.openxmlformats-officedocument.wordprocessingml.document'].includes(mimetype);
     },
     createHtml: function(url, mimetype, extension, title) {
-    	var convertUrlTempalte = _.template('/web/preview/converter/msoffice?url=<%= url %>');
-    	return this._super(convertUrlTempalte({url: encodeURIComponent(url)}));
+		var convertUrlTempalte = _.template('/web/preview/converter/msoffice?url=<%= url %>');
+		return this._super(convertUrlTempalte({url: encodeURIComponent(url)}));
     },
 });
 
