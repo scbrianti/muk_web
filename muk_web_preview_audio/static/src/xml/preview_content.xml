@@ -21,7 +21,7 @@
 	<div t-name="AudioHTMLContent" class="o_preview_audio">
 		<div class="visualizer-wrapper">			
 			<div class="visualizer">
-				<canvas width="685" height="360" />
+				<canvas width="300" height="168" />
 			</div>
 			<audio t-att-data-title="title" controls="controls">
 				<source t-att-src="url" t-att-type="type" />

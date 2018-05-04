@@ -53,14 +53,14 @@ function Visualizer($audio, $container, $canvas) {
 	}
     
 	this.calcCanvas = function() {
-		_this.canvas.width = _this.$container.width() !== 0 ? _this.$container.width() : 650;
-		_this.canvas.height = _this.$container.height() !== 0 ? _this.$container.height() : 360;
+		_this.canvas.width = _this.$container.width() !== 0 ? _this.$container.width() : 300;
+		_this.canvas.height = _this.$container.height() !== 0 ? _this.$container.height() : 168;
 		_this.cwidth = _this.canvas.width;
 		_this.cheight = _this.canvas.height - 4;
 		_this.meterWidth = 10;
 		_this.capHeight = 4;
 		_this.capStyle = '#FFF';
-		_this.meterNum = (_this.$container.width() !== 0 ? _this.$container.width() : 650) / (10 + 2);
+		_this.meterNum = (_this.$container.width() !== 0 ? _this.$container.width() : 300) / (10 + 2);
 		
 		_this.gradient = _this.ctx.createLinearGradient(0, 0, 0, _this.cheight);
 		_this.gradient.addColorStop(1, '#1CD5FB');
