@@ -20,11 +20,11 @@ The Python library pdfconv can be used to convert a variety of different file ty
 ### Linux
 
 * LibreOffice [unoconv](https://github.com/dagwieers/unoconv)
-Dependency
-Ubuntu 16.04
-apt-get install python-requests
-apt-get install python-cachetools
-apt-get install unoconv
-pip install pdfconv
+Dependency:
+ * Ubuntu 16.04
+ * apt-get install python-requests
+ * apt-get install python-cachetools
+ * apt-get install unoconv
+ * pip install pdfconv
 
-chown odoo:odoo -Rf .config
+* chown odoo:odoo -Rf .config
