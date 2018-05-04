@@ -21,7 +21,7 @@
 	<t t-extend="Sidebar">
 		<t t-jquery="a:has(.o_sidebar_delete_attachment)" t-operation="before">
 			<span t-if="section.name == 'files' and !item.callback and item.url"
-				class="fa fa-file-o o_sidebar_preview_attachment"
+				class="fa fa-eye o_sidebar_preview_attachment"
 				t-att-data-id="item.id" title="Preview this attachment" />
 		</t>
 	</t>
